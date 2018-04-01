@@ -2,6 +2,8 @@
 
 枚举kerberos域用户的字典
 
+当然用途不限于枚举域用户
+
 # Usage
 
 ```
@@ -11,5 +13,3 @@ msf auxiliary(kerberos_enumusers) > set ACTION <action-name>
 msf auxiliary(kerberos_enumusers) > show options
 msf auxiliary(kerberos_enumusers) > run
 ```
-
-当然用途不限于枚举域用户

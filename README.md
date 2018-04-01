@@ -11,3 +11,5 @@ msf auxiliary(kerberos_enumusers) > set ACTION <action-name>
 msf auxiliary(kerberos_enumusers) > show options
 msf auxiliary(kerberos_enumusers) > run
 ```
+
+当然用途不限于枚举域用户
